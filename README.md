@@ -1,0 +1,1 @@
+# cypress_allure_example2
