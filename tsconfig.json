@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es2019", "dom"],
+    "baseUrl": "./../node_modules",
+    "types": ["cypress", "./cypress/support", "cypress-file-upload", "lodash", "node", "cypress-xpath", "@shelex/cypress-allure-plugin"],
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+  },
+  "include": ["cypress/**/*.ts", "node_modules/cypress-xpath/src/index.d.ts"],
+  "exclude": ["node_modules", "cypress/features", "cypress/support/pages"]
+}

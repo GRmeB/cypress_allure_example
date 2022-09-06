@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "e2e@1.0.0",
+    "stage": "cy:open",
+    "script": "cypress open \"--config-file\" \"./config/cypress_prod_cecil_de.json\"",
+    "pkgname": "e2e",
+    "err": {
+      "name": "pnpm",
+      "message": "e2e@1.0.0 cy:open: `cypress open \"--config-file\" \"./config/cypress_prod_cecil_de.json\"`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: e2e@1.0.0 cy:open: `cypress open \"--config-file\" \"./config/cypress_prod_cecil_de.json\"`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/Users/GRme/pnpm-global/5/node_modules/.pnpm/pnpm@6.23.2/node_modules/pnpm/dist/pnpm.cjs:91354:22)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1064:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}

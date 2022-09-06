@@ -1,0 +1,10 @@
+node_modules
+allure-results
+cypress/videos
+cypress/reports
+cypress/screenshots
+cypress/logs
+coverage
+.idea
+out.json
+cucumber-messages.ndjson
