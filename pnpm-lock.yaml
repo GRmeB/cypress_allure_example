@@ -7,7 +7,7 @@ specifiers:
   '@bahmutov/cypress-extends': ^1.1.0
   '@cypress/browserify-preprocessor': ^3.0.2
   '@cypress/code-coverage': ^3.10.0
-  '@shelex/cypress-allure-plugin': ^2.30.2
+  '@shelex/cypress-allure-plugin': 2.30.2
   '@testing-library/cypress': ^8.0.3
   '@types/node': ^18.7.15
   '@typescript-eslint/eslint-plugin': ^5.36.2
@@ -1268,7 +1268,7 @@ packages:
       '@babel/parser': 7.19.0
       debug: 4.3.4
       esbuild: 0.14.54
-      glob: 7.2.3
+      glob: 7.2.0
       minimatch: 3.1.2
       node-hook: 1.0.0
     transitivePeerDependencies:
@@ -1302,7 +1302,7 @@ packages:
       cosmiconfig: 7.0.1
       cypress: 10.7.0
       debug: 4.3.4
-      glob: 7.2.3
+      glob: 7.2.0
       is-path-inside: 3.0.3
       resolve-pkg: 2.0.0
       uuid: 8.3.2
@@ -2622,7 +2622,7 @@ packages:
       domain-browser: 1.2.0
       duplexer2: 0.1.4
       events: 2.1.0
-      glob: 7.2.3
+      glob: 7.2.0
       has: 1.0.3
       htmlescape: 1.1.1
       https-browserify: 1.0.0
@@ -2676,7 +2676,7 @@ packages:
       domain-browser: 1.2.0
       duplexer2: 0.1.4
       events: 3.3.0
-      glob: 7.2.3
+      glob: 7.2.0
       has: 1.0.3
       htmlescape: 1.1.1
       https-browserify: 1.0.0
@@ -3548,7 +3548,7 @@ packages:
       dayjs: 1.11.5
       debug: 4.3.4_supports-color@8.1.1
       enquirer: 2.3.6
-      eventemitter2: 6.4.7
+      eventemitter2: 6.4.8
       execa: 4.1.0
       executable: 4.1.1
       extract-zip: 2.0.1_supports-color@8.1.1
@@ -3885,7 +3885,7 @@ packages:
       get-port: 5.1.1
       git-url-parse: 11.6.0
       github-slugger: 1.2.0
-      glob: 7.2.3
+      glob: 7.2.0
       globals-docs: 2.4.1
       highlight.js: 10.7.3
       ini: 1.3.8
@@ -4460,8 +4460,8 @@ packages:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
 
-  /eventemitter2/6.4.7:
-    resolution: {integrity: sha512-tYUSVOGeQPKt/eC1ABfhHy5Xd96N3oIijJvN3O9+TsC28T5V9yX9oEfEK5faP0EFSNVOG97qtAS68GBrQB2hDg==}
+  /eventemitter2/6.4.8:
+    resolution: {integrity: sha512-pAJurPyD+Nj/pfz8m0usKF1RW0E9gfY4Dfdem2l6jZbqcZlK8SP93qUMCv9V9FgOn+GSZEW6qeaglpf/vQ9D5A==}
 
   /events/2.1.0:
     resolution: {integrity: sha512-3Zmiobend8P9DjmKAty0Era4jV8oJ0yGYe2nJJAxgymF9+N8F2m0hhZiMoWtcfepExzNKZumFU3ksdQbInGWCg==}
@@ -5018,7 +5018,7 @@ packages:
     engines: {node: '>= 0.10'}
     dependencies:
       extend: 3.0.2
-      glob: 7.2.3
+      glob: 7.2.0
       glob-parent: 3.1.0
       is-negated-glob: 1.0.0
       ordered-read-streams: 1.0.1
@@ -5035,17 +5035,6 @@ packages:
 
   /glob/7.2.0:
     resolution: {integrity: sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==}
-    dependencies:
-      fs.realpath: 1.0.0
-      inflight: 1.0.6
-      inherits: 2.0.4
-      minimatch: 3.1.2
-      once: 1.4.0
-      path-is-absolute: 1.0.1
-    dev: true
-
-  /glob/7.2.3:
-    resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -6668,7 +6657,7 @@ packages:
     hasBin: true
     dependencies:
       fs-extra: 7.0.1
-      glob: 7.2.3
+      glob: 7.2.0
       yargs: 15.4.1
     dev: true
 
@@ -6913,7 +6902,7 @@ packages:
       find-up: 4.1.0
       foreground-child: 2.0.0
       get-package-type: 0.1.0
-      glob: 7.2.3
+      glob: 7.2.0
       istanbul-lib-coverage: 3.0.0
       istanbul-lib-hook: 3.0.0
       istanbul-lib-instrument: 4.0.3
@@ -7919,7 +7908,7 @@ packages:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
     hasBin: true
     dependencies:
-      glob: 7.2.3
+      glob: 7.2.0
 
   /ripemd160/2.0.2:
     resolution: {integrity: sha512-ii4iagi25WusVoiC4B4lq7pbXfAp3D9v5CwfkY33vffw2+pkDjY1D8GaN7spsxvCSx8dkPqOZCEZyfxcmJG2IA==}
@@ -7984,7 +7973,7 @@ packages:
     hasBin: true
     dependencies:
       async: 2.6.4
-      glob: 7.2.3
+      glob: 7.2.0
       lodash: 4.17.21
       resolve-pkg: 1.0.0
     dev: false
@@ -8523,7 +8512,7 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       '@istanbuljs/schema': 0.1.3
-      glob: 7.2.3
+      glob: 7.2.0
       minimatch: 3.1.2
     dev: true
 

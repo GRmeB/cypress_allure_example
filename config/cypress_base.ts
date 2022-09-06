@@ -51,6 +51,7 @@ export var configCommon: Cypress.ConfigOptions = {
         allureClearSkippedTests: false,
         allureAddAnalyticLabels: false,
         allureAddVideoOnPass: false,
+        allureReuseAfterSpec: true,
     },
     video: false,
     videoCompression: 48,
