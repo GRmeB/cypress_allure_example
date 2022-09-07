@@ -36,7 +36,7 @@ export var configCommon: Cypress.ConfigOptions = {
     pageLoadTimeout: 20000,
     defaultCommandTimeout: 10000,
     retries: {
-        runMode: 0,
+        runMode: 1,
         openMode: 0,
     },
     env: {

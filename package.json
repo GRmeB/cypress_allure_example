@@ -31,7 +31,7 @@
 		"@bahmutov/cypress-extends": "^1.1.0",
 		"@cypress/browserify-preprocessor": "^3.0.2",
 		"@cypress/code-coverage": "^3.10.0",
-		"@shelex/cypress-allure-plugin": "2.30.2",
+		"@shelex/cypress-allure-plugin": "^2.30.3",
 		"@testing-library/cypress": "^8.0.3",
 		"@types/node": "^18.7.15",
 		"@typescript-eslint/eslint-plugin": "^5.36.2",
