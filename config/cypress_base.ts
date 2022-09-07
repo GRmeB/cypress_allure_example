@@ -44,7 +44,7 @@ export var configCommon: Cypress.ConfigOptions = {
         USE_FRONTEND_PROD_TEST: false,
         USE_MOCHA: false,
         allure: false,
-        allureResultsPath: '../cypress/reports/allure/json',
+        allureResultsPath: 'cypress/reports/allure/json',
         allureLogCypress: true,
         allureAttachRequests: false,
         allureOmitPreviousAttemptScreenshots: false,

@@ -8,6 +8,8 @@
 		"clean": "scripty",
 		"cy:open": "./node_modules/.bin/cypress open",
 		"cy:run": "./node_modules/.bin/cypress run",
+		"cy:run:all:mocha": "./node_modules/.bin/cypress run --env USE_MOCHA=true,allure=true --config-file config/cypress_prod_github_com.ts",
+		"cy:run:all:cucumber": "./node_modules/.bin/cypress run --env USE_MOCHA=false,allure=true --config-file config/cypress_prod_github_com.ts",
 		"cy:basic": "./node_modules/.bin/cypress run --spec cypress/e2e/basic/*",
 		"cy:tags": "./node_modules/.bin/cypress-tags run",
 		"mochawesome:combine": "mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/mocha/report_full.json",
